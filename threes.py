@@ -59,7 +59,7 @@ class Grid:
 
     def ended(self):
         if not (self.up or self.down or self.left or self.right):
-            return self.score
+            return self.score()
         else:
             return False
 
