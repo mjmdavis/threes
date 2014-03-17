@@ -105,7 +105,9 @@ class Grid:
         new._insertTile(direction)
         return new
 
+    """
     def __copy__(self):
+    """
 
 
     def _insertTile(self, direction):
@@ -185,12 +187,13 @@ class Grid:
 
         return self._unflip(g, direction)
 
+"""
 class tileStack:
     def __init__(self):
         self.randomo
 
     def 
-
+"""
 
 
 def _transpose(lol):
