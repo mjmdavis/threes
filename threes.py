@@ -59,7 +59,7 @@ class Grid:
 
     def ended(self):
         if not (self.up or self.down or self.left or self.right):
-            return self.score
+            return self.score()
         else:
             return False
 
@@ -105,7 +105,9 @@ class Grid:
         new._insertTile(direction)
         return new
 
+    """
     def __copy__(self):
+    """
 
 
     def _insertTile(self, direction):
@@ -185,12 +187,13 @@ class Grid:
 
         return self._unflip(g, direction)
 
+"""
 class tileStack:
     def __init__(self):
         self.randomo
 
     def 
-
+"""
 
 
 def _transpose(lol):
