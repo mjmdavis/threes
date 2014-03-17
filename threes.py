@@ -98,7 +98,7 @@ class Grid:
         return self.directions[direction]
 
     def _createDirection(self, newGrid, direction):
-        new = copy.copy(self)
+        new = copy.deepcopy(self)
         new.grid = newGrid
         new.moves += 1
         new.directions = dict()
